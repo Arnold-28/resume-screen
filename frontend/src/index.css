@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Poppins:wght@600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #131a24;
+  background: radial-gradient(circle at 0% 0%, #f8f3e8, #f2ede3 40%, #ecf3f7 100%);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+}
+
+.card-grid {
+  background-image: linear-gradient(rgba(19, 26, 36, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(19, 26, 36, 0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
